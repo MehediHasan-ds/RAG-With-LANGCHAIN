@@ -1,0 +1,6 @@
+langchain
+langchain-openai
+langchain_huggingface
+sentence-transformers
+openai
+dotenv
