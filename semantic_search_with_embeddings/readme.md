@@ -1,4 +1,4 @@
-## 📄 **Understanding Embeddings and Semantic Similarity in LangChain**
+# 📄 **Understanding Embeddings and Semantic Similarity in LangChain**
 
 ### Overview
 
@@ -6,7 +6,7 @@ This report explains how **text embeddings** are used to find semantically simil
 
 ---
 
-## Page 1: Step-by-Step Code Walkthrough
+## Step-by-Step Code Walkthrough
 
 ### 🔹 1. **Setup and Imports**
 
@@ -73,7 +73,7 @@ document_embeddings = embedding_model.embed_documents(health_insurance_docs)
 
 ---
 
-## Page 2: Query Processing and Semantic Matching
+## Query Processing and Semantic Matching
 
 ### 🔹 6. **Embed Query and Compare to Documents**
 

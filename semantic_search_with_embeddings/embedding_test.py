@@ -2,9 +2,11 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_huggingface import HuggingFaceEmbeddings
 
 from sklearn.metrics.pairwise import cosine_similarity
-
 from dotenv import load_dotenv
+
 load_dotenv()
+
+# embedding_model = OpenAIEmbeddings(model="text-embedding-3-large",dimensions=300)
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
