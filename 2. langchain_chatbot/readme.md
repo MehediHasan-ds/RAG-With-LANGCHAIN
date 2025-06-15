@@ -1,5 +1,3 @@
-
-
 # Building a Domain-Specific Chatbot Using LangChain & Groq
 
 *By Mehedi Hasan*
@@ -15,7 +13,7 @@ The goal of this project was to build a **conversational AI chatbot** that speci
 * Understand user queries in natural language
 * Respond only within the health domain
 * Maintain conversation context
-* Be fast and lightweight (no LLM API billing like OpenAI)
+* Be fast and lightweight
 
 ---
 
